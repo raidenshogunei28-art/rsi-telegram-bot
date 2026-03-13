@@ -3,8 +3,8 @@ from ta.momentum import RSIIndicator
 import requests
 import time
 
-TOKEN = "ISI_TOKEN_BOT"
-CHAT_ID = "ISI_CHAT_ID"
+TOKEN = "8487697326:AAFNOd2fyPUU6EvcW876Wji0JgYR-mJVqBI"
+CHAT_ID = "6267659195"
 
 pairs = [
 
@@ -113,5 +113,6 @@ Potensi SELL
 while True:
 
     check_rsi()
+
 
     time.sleep(60)
